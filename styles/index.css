@@ -3,3 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+nav {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.top-logo img{
+    height: 20%;
+    width: auto;
+    padding-left: 40%;
+}
+
+.nav-container {
+    display: flex;
+}
+
