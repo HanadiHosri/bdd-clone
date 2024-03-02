@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+  }
+
 nav {
     display: block;
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 100px;
 }
 
 nav ul {
@@ -77,6 +82,20 @@ nav ul {
     margin: 6px auto;
     transition: all 0.3s ease-in-out;
 }
+
+.hero {
+    background-image: url("../images/slide2.jpg");
+    text-align: center;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+
+}
+
 
 @media (max-width: 1255px) {
     nav {
