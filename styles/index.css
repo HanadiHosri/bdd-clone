@@ -216,6 +216,8 @@ nav ul {
 .few-words {
     padding-left: 300px;
     padding-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .few-words-divs {
