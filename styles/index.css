@@ -69,9 +69,28 @@ nav ul {
     display: block;
 }
 
+.hambuger-icon div {
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px auto;
+    transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 1255px) {
     nav {
         display: none;
     }
+
+    .hambuger-icon {
+        display: block;
+        float: right;
+    }
 }
 
+@media (min-width: 1256px) {
+    .hambuger-icon {
+        display: none;
+    }
+}
