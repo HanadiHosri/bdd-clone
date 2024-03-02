@@ -147,6 +147,17 @@ nav ul {
     justify-content: space-evenly;
 }
 
+.download-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.download {
+    display: flex;
+    padding-left: 800px;
+    padding-right: 800px;
+}
+
 
 
 @media (max-width: 1255px) {
