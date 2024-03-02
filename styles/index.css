@@ -13,7 +13,7 @@ nav {
     padding-top: 20px;
     padding-bottom: 20px;
     height: 100px;
-    position: sticky;
+    position: fixed;
     background-color: transparent;
     z-index: 40;
 }
@@ -35,6 +35,7 @@ nav ul {
     display: flex;
     justify-content: center;
 }
+
 
 .button {
     background-color: rgb(31, 135, 231);
@@ -98,6 +99,26 @@ nav ul {
 .hero-text {
     color: white;
     font-size: 30px;
+}
+
+.foundations {
+    background-color: rgb(229, 247, 224);
+    height: 300px;
+}
+
+.foundations h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.foundations-divs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foundations-divs div {
+    background-color: white;
+    width: 18%;
 }
 
 
