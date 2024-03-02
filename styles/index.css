@@ -230,6 +230,20 @@ nav ul {
     height: auto;
 }
 
+footer {
+    background-color: grey;
+    padding: 20px;
+}
+
+.footer-divs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
 @media (max-width: 1255px) {
     nav {
         display: none;
