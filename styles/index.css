@@ -45,7 +45,31 @@ nav ul {
 
 }
 
-@media (max-width: 1255) {
+.dropdown {
+    position: relative;
+    display: flex;
+
+}
+
+.dropdown-content1, .dropdown-content2 {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content1 a ,.dropdown-content2 a{
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+@media (max-width: 1255px) {
     nav {
         display: none;
     }
