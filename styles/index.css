@@ -213,6 +213,21 @@ nav ul {
     margin-left: 600px;
 }
 
+.few-words {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.few-words-divs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.few-words-image {
+    width: 400px;
+    height: auto;
+}
+
 @media (max-width: 1255px) {
     nav {
         display: none;
