@@ -24,3 +24,14 @@ nav ul {
     display: flex;
 }
 
+.button {
+    background-color: rgb(31, 135, 231);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
