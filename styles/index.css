@@ -111,6 +111,11 @@ nav ul {
     padding: 20px;
 }
 
+.icon {
+    height: 70px;
+    width: auto;
+}
+
 .foundations-divs {
     display: flex;
     justify-content: space-evenly;
@@ -154,8 +159,8 @@ nav ul {
 
 .download {
     display: flex;
-    padding-left: 800px;
-    padding-right: 800px;
+    padding-left: 650px;
+    padding-right: 650px;
 }
 
 .prefered-hub {
