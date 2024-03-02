@@ -39,6 +39,12 @@ nav ul {
 
 }
 
+.nav-btn {
+    border: none;
+    cursor: pointer;
+
+}
+
 @media (max-width: 1255) {
     nav {
         display: none;
