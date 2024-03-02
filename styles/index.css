@@ -137,6 +137,16 @@ nav ul {
     width: 20%;
 }
 
+.community h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.community-divs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (max-width: 1255px) {
     nav {
         display: none;
