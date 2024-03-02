@@ -121,6 +121,17 @@ nav ul {
     width: 18%;
 }
 
+.vision {
+    background-image: url("../images/Shared-Space-at-BDD.png");
+}
+
+.vision h2 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+
 
 @media (max-width: 1255px) {
     nav {
