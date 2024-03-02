@@ -25,6 +25,7 @@ nav ul {
     padding: 10px 5px;
 }
 
+
 .top-logo img{
     height: 20%;
     width: auto;
@@ -51,7 +52,6 @@ nav ul {
 .nav-btn {
     border: none;
     cursor: pointer;
-
 }
 
 .dropdown {
@@ -146,6 +146,8 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
 }
+
+
 
 @media (max-width: 1255px) {
     nav {
