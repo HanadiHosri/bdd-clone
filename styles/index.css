@@ -20,11 +20,12 @@ nav ul {
 .top-logo img{
     height: 20%;
     width: auto;
-    padding-left: 40%;
+    padding-left: 30px;
 }
 
 .nav-container {
     display: flex;
+    justify-content: center;
 }
 
 .button {
@@ -36,5 +37,11 @@ nav ul {
     cursor: pointer;
     border-radius: 20px;
 
+}
+
+@media (max-width: 1255) {
+    nav {
+        display: none;
+    }
 }
 
