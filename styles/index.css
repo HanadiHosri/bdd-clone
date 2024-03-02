@@ -184,6 +184,35 @@ nav ul {
     width: 200px;
 }
 
+.trending {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.trending-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.trending-divs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trending-divs div {
+    height: 400px;
+    width: 300px;
+}
+
+.trending-image {
+    height: 300px;
+    width: 300px;
+}
+
+.trending button {
+    margin-left: 600px;
+}
+
 @media (max-width: 1255px) {
     nav {
         display: none;
