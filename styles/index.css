@@ -158,7 +158,26 @@ nav ul {
     padding-right: 800px;
 }
 
+.prefered-hub {
+    background-image: url("../images/parallax-light.jpg");
+}
 
+.prefered-hub-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.prefered-hub-divs {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.prefered-hub-divs div {
+    height: 200px;
+    width: 200px;
+}
 
 @media (max-width: 1255px) {
     nav {
